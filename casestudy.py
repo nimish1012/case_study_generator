@@ -21,8 +21,7 @@ from langchain.vectorstores import Chroma
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.agents import Tool
 
-OPENAI_API_KEY = "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"
-#ZvIygV6mH91NBKVRaeOGT3BlbkFJOwm1WWvhuRF3a3srB7Wo
+OPENAI_API_KEY = "YOUR-OPENAI-KEY"
 os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 
 # load the document as before
@@ -288,10 +287,7 @@ print(all_abstracts)
 # all_abstracts
 # keywords
 
-"""#                                                                         DATA^
-
-# PART 01
-"""
+""" # PART 01 """
 
 template = '''
 
